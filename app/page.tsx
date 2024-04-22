@@ -9,8 +9,9 @@ const Home: React.FC = () => {
     const [shortUrl, setShortUrl] = useState<string>("");
 
     return (
-        <div className="flex flex-col items-center justify-between bg-red-700">
-            <div className="py-5">Acorta tu link</div>
+        <div className="flex flex-col items-center justify-between ">
+            <p className="py-5 text-2xl">Acorta tu link</p>
+            <p className="py-3 text-lg"> Acorta tus links 👍 </p>
             <FormUrl />
             <Description />
         </div>
