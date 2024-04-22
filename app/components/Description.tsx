@@ -6,8 +6,8 @@ import Card from "./Card";
 
 const Description: React.FC = () => {
     return (
-        <div className="flex-row flex">
-                <Card
+        <div className="flex flex-row">
+            <Card
                 icon={<IconLink color="blue" size={72} />}
                 text="Acortador de Links "
             />
